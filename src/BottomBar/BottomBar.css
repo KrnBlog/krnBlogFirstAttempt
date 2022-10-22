@@ -1,0 +1,42 @@
+.bottombar {
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  padding: 0 45px;
+  background-color: rgb(7 94 84);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottombar button {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items */
+}
+
+.bottomBar-icons {
+  border: none;
+  border-radius: 50%;
+  font-size: 23px;
+  margin: 0px 4px;
+  display: inline-block;
+  padding: 10px;
+  /* height: 40px;
+  width: 40px; */
+  /* background-color: rgb(255 255 255); */
+}
+a {
+  color: white;
+}
+a::selection {
+  color: yellowgreen;
+}
+a:hover {
+  color: cornflowerblue;
+}
+iv {
+  color: white;
+}

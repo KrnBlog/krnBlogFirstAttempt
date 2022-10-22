@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  color: black;
+}
+#root {
+  height: 100vh;
+}
+.headDiv {
+  position: fixed;
+  width: 100%;
+}
+.dispalayArea {
+  font-size: 40px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  height: 100%;
+}

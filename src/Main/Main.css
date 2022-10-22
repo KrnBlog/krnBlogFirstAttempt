@@ -1,0 +1,76 @@
+.container {
+  color: black;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  overflow: scroll;
+  position: relative;
+  /* padding: 10px; */
+  /* border: 2px solid #333; */
+  /* background-color: rgb(21, 114, 57); */
+}
+
+.x-scroll .wrapper {
+  width: 100vh;
+  /* padding: 10px; */
+  /* background-color: chartreuse; */
+}
+.wrapper .element {
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.x-mandatory {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  /* overflow: hidden; */
+  grid-template-columns: 100vw 100vw 100vw 100vw 100vw;
+  /* background-color: burlywood; */
+  /* padding: 50px; */
+  /* grid-gap: 10px; */
+}
+
+.x-scroll .element {
+  float: left;
+  margin-right: 10px;
+}
+
+.element {
+  width: 100%;
+  /* height: 99vh; */
+  transition-duration: 1s;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding: 10px 10px;
+  animation-duration: 1s;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* scroll-margin: 10px; */
+}
+/* .element:nth-child(1) {
+  background: #1d1e21;
+}
+.element:nth-child(2) {
+  background: #ee6620;
+}
+.element:nth-child(3) {
+  background: #777ba0;
+}
+.element:nth-child(4) {
+  background: #da1e62;
+}
+.element:nth-child(5) {
+  background: blue;
+} */

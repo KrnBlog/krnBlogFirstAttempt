@@ -1,0 +1,33 @@
+.navbar {
+  /* font-size: 30px; */
+  /* border: 1px solid black; */
+  height: 25px;
+  display: flex;
+  background-color: #267026e6;
+  background-color: rgb(7 94 84);
+  color: white;
+  justify-content: space-evenly;
+  /* border-bottom: 1px solid lightseagreen; */
+  padding-bottom: 4px;
+}
+.navbar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  min-width: 33.3%;
+  text-align: center;
+  padding-bottom: 8px;
+  /* margin: 0 10px; */
+  /* border-bottom: 5px solid white ; */
+  /* background-color:red;/ */
+  /* height: ; */
+}
+.navbar div:hover {
+  background-color: rgb(7 94 84);
+  background-color: lightseagreen;
+  border-bottom: 1px solid lightseagreen;
+  border-left: 2px solid lightseagreen;
+  border-right: 2px solid lightseagreen;
+  /* border-top: 1px solid lightseagreen; */
+}
